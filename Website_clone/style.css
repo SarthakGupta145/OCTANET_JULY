@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+body p {
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.navbar {
+    width: 100%;
+    background-color: rgb(29, 29, 126);
+    height: 450px;
+}
+
+.navbar1 {
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.navlist {
+    width: 50%;
+}
+
+.navlist ul {
+    justify-content: space-evenly;
+    display: flex;
+    padding: 10px 0px;
+    margin: auto;
+}
+
+.navlist ul li {
+    width: 50%;
+    display: flex;
+    list-style: none;
+    padding: 7px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+.navlist li a:hover {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(39, 39, 147);
+}
+
+#flag img {
+    border-radius: 50%;
+    padding: 2px;
+}
+
+#lyp1 a {
+    border: 2px solid white;
+}
+
+#register a {
+    background-color: white;
+    color: blue
+}
+
+#signin a {
+    background-color: white;
+    color: blue;
+}
+
+.logo {
+    width: 50%;
+    padding: 30px;
+    margin-left: 60px;
+    font-size: 35px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+}
+
+.navlist2 {
+    margin-left: 90px;
+    margin-top: 5px;
+    width: 100%;
+}
+
+#stays {
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.navlist2 ul {
+    display: flex;
+    list-style: none;
+    margin: 10px 0x 0px 20px;
+}
+
+.navlist2 ul li {
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.navlist2 li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+
+}
+
+.navlist2 li a:hover {
+    color: white;
+    background-color: rgb(39, 39, 147);
+    border-radius: 10px;
+
+}
+
+.navbar h1 {
+    margin-left: 60px;
+    padding: 20px;
+    font-size: 60px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+}
+
+h2 {
+    margin-left: 60px;
+    margin-top: 0;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Baloo Bhai 2', cursive;
+    color: white;
+}
+
+.input {
+    margin-left: 80px;
+}
+
+.input input {
+    border: 5px solid yellow;
+    padding: 10px;
+    width: 330px;
+    font-size: 20px;
+}
+
+#check {
+    margin-top: 20px;
+}
+
+.fill1 input[type="text"] {
+    padding: 10px;
+    height: 30px;
+    width: 330px;
+    font-size: 20px;
+    margin: 20px
+}
+
+.fill1 input[type="checkbox"] {
+    height: 20px;
+}
+
+
+.input button {
+    color: white;
+    background-color: rgb(27, 128, 121);
+    padding: 20px;
+    border: 5px solid yellow;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main {
+    margin-left: 100px;
+}
+
+.main div {
+    margin-bottom: 120px;
+}
+
+.main h1 {
+    color: black;
+    margin-left: 25px;
+}
+
+.main h3 {
+    margin-left: 25px;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.image-pl {
+    width: 500px;
+    height: 500px;
+}
+
+.info-flight {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.info-deals {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 500px;
+}
+
+.info-deals p {
+    padding: 10px;
+}
+
+
+.info-flight p {
+    padding: 10px;
+
+}
+
+.image-pl img {
+    padding-top: 100px;
+}
+
+.image-pl1 {
+    background-image: url('./bg1.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.image-pl2 {
+    background-image: url('./bg2.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.logo a {
+    font-size: 30px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+
+}
+
+.btn-lg {
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.image {
+    height: 250px
+}
+
+
+.content1 h1 {
+    color: black;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+
+h3 {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: grey;
+    font-size: 20px;
+}
+
+.content1 {
+    margin: 20px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.content1 div {
+    margin: 20px;
+    display: flex;
+}
+
+.picture {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.picture div {
+    margin: 20px;
+}
+
+.image-bg {
+    font-size: 50px;
+    color: black;
+}
+
+.content2 {
+    margin: 20px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+
+.content2 div {
+    margin: 20px;
+}
+
+
+.content3 {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.content3 div {
+    margin: 20px;
+}
+
+.travel ul {
+    display: flex;
+    list-style: none;
+}
+
+#inr a {
+    font-size: 30px;
+}
+
+#budget a {
+    color: BLUE;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+#romance a {
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+.travel li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.travel li a:hover {
+    color: black;
+    background-color: rgb(208, 201, 201);
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.travel ul li {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+}
+
+.content4 {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.content4 div {
+    margin: 20px;
+}
+
+.image a {
+    text-decoration: none;
+    color: black;
+}
+
+.content5 {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.content5 div {
+    margin: 20px;
+}
+
+.content6 {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.content6 div {
+    margin: 20px;
+}
+
+.content7 {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.content7 div {
+    margin: 20px;
+}
+
+.content8 {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.content8 div {
+    margin: 20px;
+}
+
+.discount {
+    display: flex;
+    margin-top: 30px;
+    background-color: aliceblue;
+}
+
+.dis {
+    margin-top: 30px;
+}
+
+.btn {
+    color: blue;
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.btn-sn {
+    border: 2px solid blue;
+}
+
+.content9 ul {
+    display: flex;
+    list-style: none;
+}
+
+.content9 li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.content9 ul li {
+    display: flex;
+    padding: 10px;
+    list-style: none;
+}
+
+.place {
+    padding: 20px;
+    display: flex;
+}
+
+.place div {
+    padding-right: 100px;
+}
+
+.place a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    font-size: 20px;
+    background-color: rgb(10, 10, 90);
+    width: 100%;
+    margin: 0px 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+.fill {
+    display: flex;
+    padding-left: 400px;
+}
+
+.contact h1 {
+    font-size: 20px;
+    color: white;
+}
+
+.contact h3 {
+    font-size: 19px;
+    color: grey;
+}
+
+.fill input {
+    padding: 10px;
+    height: 50px;
+    width: 330px;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.fill button {
+    color: white;
+    background-color: rgb(31, 142, 134);
+    padding: 0px 30px;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.icon {
+    background-color: rgb(27, 27, 156);
+    width: 100vw;
+    /* margin: 0px 30px; */
+    padding: 20px;
+    text-align: center;
+}
+
+.icon div {
+    padding-left: 580px;
+
+}
+
+.lyp {
+    color: white;
+    border: 2px solid white;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+}
+
+.lyp p {
+    text-align: center;
+}
+
+.aboutus {
+    background-color: beige;
+    padding: 20px;
+    padding-left: 150px;
+}
+
+.links {
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.aboutus div {
+    padding-right: 100px;
+}
+
+.aboutus a {
+    text-decoration: none;
+    color: blue;
+}
+
+.aboutus span {
+    padding-right: 5px;
+}
+
+.aboutus span a {
+    color: blue;
+}
+
+.aboutus span p {
+    text-align: center;
+}
+
+.copy {
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+
+.com {
+    font-size: 14px;
+}
+
+.social ul {
+    display: flex;
+    list-style: none;
+    padding-left: 80px;
+}
+
+.social li a {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.social ul li {
+    display: flex;
+    padding: 30px;
+    list-style: none;
+}
+
+.icon ul {
+    display: flex;
+    list-style: none;
+    padding-left: 80px;
+}
+
+.icon li a {
+    cursor: pointer;
+    padding: 7px;
+    color: white;
+}
+
+.icon ul li {
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}

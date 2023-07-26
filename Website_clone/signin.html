@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-in</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .navbar {
+            width: 100%;
+            background-color: rgb(29, 29, 126);
+            height: 100px;
+        }
+
+        .logo a {
+            font-size: 30px;
+            width: 100%;
+            color: white;
+            text-decoration: none;
+
+        }
+
+        .navlist {
+            width: 20%;
+        }
+
+        .navlist ul li {
+            margin: 0;
+        }
+
+        .main {
+            margin: 50px;
+            text-align: center;
+        }
+
+        .main h1 {
+            text-align: left;
+            margin-left: 430px;
+        }
+
+        .form {
+            margin: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form input,
+        .form button {
+            margin-left: 400px;
+        }
+
+        .form label {
+            font-size: 20px;
+            text-align: left;
+            margin-left: 400px;
+        }
+
+        .form input {
+            /* border: 5px solid yellow; */
+            padding: 10px;
+            width: 330px;
+            font-size: 20px;
+        }
+
+        .form input:hover {
+            border: 2px solid blue;
+        }
+
+        .btn-lg {
+            width: 350px;
+        }
+
+        .btn-lg a {
+            font-size: 20px;
+        }
+
+        .signin a {
+            text-decoration: none;
+            color: rgb(53, 53, 128);
+        }
+
+        .signin ul {
+            display: flex;
+            list-style: none;
+            margin-left: 450px;
+        }
+
+        .signin ul li {
+            margin-right: 30px;
+        }
+
+        .signin ul li a {
+            padding: 30px;
+            font-size: 40px;
+        }
+
+        .signin ul li a:hover {
+            padding: 30px;
+            font-size: 40px;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="navbar1">
+            <div class="logo"><a href="/index.html">Booking.com</a></div>
+            <div class="navlist">
+                <ul>
+                    <li id="flag"><a href="#flag"><img
+                                src="https://cf.bstatic.com/static/img/flags/new/48-squared/in/20aa535a5d3c505dd02fea275ed1a36c0fb1fe08.png"
+                                alt="flag"></a> </li>
+                    <li><a href="#question"><i class="fa fa-question-circle" style="font-size:48px;
+                    border: 2px solid white;
+                    border-radius: 50%;color:blue;"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="main">
+        <div class="signin">
+            <h1>Sign in or create an account</h1>
+            <form action="post" class="form">
+                <label for="email">Email address</label><br>
+                <input type="text" id="email" class="name" placeholder="">
+                <button class="btn-lg"><a style="color:white" href="/Booking.html-Sarthak-Gupta-/signup.html">Continue
+                        with
+                        email</a></button>
+            </form>
+            <p> or use one of these options
+            </p>
+            <ul>
+                <li><a href="#" class="fa fa-facebook"></a>
+                </li>
+                <li><a href="#" class="fa fa-google"></a></li>
+                <li><a href="#" class="fa fa-phone"></a></li>
+            </ul>
+            <p><a href="#">More ways to sign in</a></p><br><br>
+            <hr><br><br>
+            <div class="about">
+                <p>By signing in or creating an account, you agree with our <a href="#">Terms & Conditions</a> and <a
+                        href="#">Privacy statement</a></p>
+                <br>
+                <hr>
+                <p>All rights reserved</p>
+                <p>Copyright (2006-2023) – Booking.com™</p>
+            </div>
+
+        </div>
+    </section>
+</body>
+
+</html>
